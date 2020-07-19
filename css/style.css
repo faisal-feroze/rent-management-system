@@ -1,0 +1,100 @@
+.rent_head {
+	background-color: #3f3c3c;
+	color: #fff;
+	padding: 10px 70px;
+}
+
+.rent_head_contain {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.content_page_title {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.table_settings form input {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+
+.building_info {
+	margin-bottom: 25px;
+}
+
+.r_info {
+	padding: 10px 0;
+	/* border-bottom: 1px solid #6c6161; */
+}
+
+.t_info_btn {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.t_nav_b {
+	width: 90%;
+	height: 200px;
+}
+
+.dash_cont {
+	line-height: 150px;
+	width: 80%;
+	margin-bottom: 30px;
+	background-color: #3aa26d;
+	/* vertical-align: top; 3ac47d #3aa26d  d92550*/
+	border-radius: 10px;
+	padding: 20px;
+	color: #fff;
+	font-size: 22px;
+	text-align: center;
+}
+
+.dash_cont:hover{
+	background-color: #3ac47d;
+}
+
+.dash_col a {
+	text-decoration: none !important;
+}
+
+.b_update input[type="text"] {
+	width: 100%;
+	background-color: transparent;
+	border: none;
+}
+
+/* .sidebar-dropdown.tenant_info a {
+	padding-right: 0 !important;
+} */
+
+#tm {
+	padding-left: 46px;
+}
+
+.nid_active{
+	/* border-color: red !important; */
+	border: 2px solid red !important;
+}
+
+.show_all_tenant_mmap {
+	margin-top: 20px;
+}
+
+.rent_login {
+	height: 100vh;
+	display: flex;
+	width: 100%;
+	background-color: #1e1a1a;
+}
+.login_container {
+	width: 600px;
+	padding: 30px;
+	margin: auto;
+	border: 1px solid #ccc;
+}
+
+.login_container label {
+	color: #d9d2d2;
+}
